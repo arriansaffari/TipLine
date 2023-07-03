@@ -1,0 +1,68 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+    display: block;
+    font-family: Marker Felt, fantasy;
+  }
+
+  .login-box-light {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    width: 25%;
+    box-shadow: 0 0 .2rem #b0adad,
+    0 0 .2rem #a5a3a3,
+    0 0 2rem #b0aeb2,
+    0 0 0.8rem #848287,
+    0 0 2.8rem #b0abb3,
+    inset 0 0 1.3rem #8d888d; 
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: #ffffff;
+  }
+
+  .login-box-dark {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    width: 25%;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #dad5d5,
+    0 0 2rem #b4a9b9,
+    0 0 0.8rem #767079,
+    0 0 2.8rem #5c5460,
+    inset 0 0 1.3rem #302b31; 
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: #414141;
+  }
+
+  .form-text-light {
+    color: black;
+  }
+
+  .form-text-dark {
+    color: white
+  }
+
+  #light {
+    color: black;
+  }
+
+  #dark {
+    color: white;
+  }
+
+  .switchStyle {
+    margin: auto;
+    justify-content: center;
+  }
+
+}

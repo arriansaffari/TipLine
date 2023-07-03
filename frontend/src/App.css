@@ -1,0 +1,88 @@
+
+  
+.App-dark {
+    
+   background-image: url("https://4kwallpapers.com/images/wallpapers/mountains-sunset-evening-sky-landscape-lake-body-of-water-5120x2880-8273.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+} 
+
+.App-light {
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav-text-dark {
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-text-light {
+    color: black;
+}
+
+#light {
+    background-color: #f3ebf6;
+}
+
+
+#dark {
+    background-color: #a159bb;
+}
+
+.brand-light {
+    color: black;
+    font-family: Marker Felt, fantasy;
+    font-size: large;
+    font-weight: "bold";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.brand-dark {
+    color: white;
+    font-family: Marker Felt, fantasy;
+    font-size: large;
+    font-weight: "bold";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.nav-border {
+    border-radius: 30px;
+}
+
+.switch {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch label {
+    margin: 10px;
+}
+
+.nav-button {
+    font-family: Marker Felt, fantasy;
+}
+
+.logout {
+    margin-right: 10px;
+}
